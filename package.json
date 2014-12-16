@@ -1,0 +1,37 @@
+{
+  "name": "china-population",
+  "version": "0.0.2",
+  "description": "china-population",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fraserxu/china-population.git"
+  },
+  "keywords": [
+    "china population",
+    "population",
+    "graph",
+    "d3"
+  ],
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files './bundle.js' --no-open --logLevel silent",
+    "watch-js": "watchify index.js -t -o bundle.js -dv",
+    "watch": "npm run browser-sync & npm run watch-js"
+  },
+  "author": {
+    "name": "Fraser Xu",
+    "email": "xvfeng123@gmail.com",
+    "url": "https://fraserxu.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/china-population/issues"
+  },
+  "homepage": "https://github.com/fraserxu/china-population",
+  "dependencies": {
+    "d3": "^3.4.13"
+  },
+  "devDependencies": {
+    "watchify": "^2.2.1"
+  }
+}
