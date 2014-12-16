@@ -4,3 +4,16 @@
   stroke-width: 0.2px;
   stroke-linejoin: round;
 }
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 18px;
+  padding: 2px;
+  font-size: 10px;
+  background: #FFFFE0;
+  border: 1px;
+  border-radius: 2px;
+  pointer-events: none;
+}
