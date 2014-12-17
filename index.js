@@ -3,7 +3,7 @@ var d3 = require('d3')
 var tooltip
 var w = 960
 var h = 600
-var formatNumber = d3.format(".0f")
+var formatNumber = d3.format(",f")
 var bodyNode = d3.select('body').node()
 
 var colors = ['rgb(237,248,233)', 'rgb(186,228,179)',
