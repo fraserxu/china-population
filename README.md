@@ -1,7 +1,11 @@
 china population choropleth
 =======================
 
+### Choropleth
 ![screen shot 2014-12-17 at 12 44 21](https://cloud.githubusercontent.com/assets/1183541/5457499/f80f2604-8585-11e4-8ed1-623c9d00a6c1.png)
+
+### Stack Barchart
+![screen shot 2014-12-18 at 12 59 40](https://cloud.githubusercontent.com/assets/1183541/5475208/ed06e90a-8651-11e4-8f16-bfa3c578ed5b.png)
 
 ### 数据来源：
 
