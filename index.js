@@ -145,13 +145,6 @@ d3.csv('data/population.csv', function(data) {
       .attr('class', 'axis')
       .call(yAxis)
 
-    svg.append('rect')
-      .attr('fill', 'yellow')
-      .attr('width', 160)
-      .attr('height', 30 * dataset.length)
-      .attr('x', 0)
-      .attr('y', height - margin)
-
     sex.forEach(function (s, i) {
       svg.append('text')
         .attr('fill', 'black')
